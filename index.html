@@ -305,8 +305,8 @@
           <use href="./svg/floppy.svg#floppy" />
         </svg>
         <h2 class="dialog__text">Вставьте дискету, чтобы продолжить</h2>
-        <form class="dialog__form" method="dialog">
-          <button class="dialog__btn slide-hover">
+        <form class="dialog__form">
+          <button class="dialog__btn slide-hover" type="button" onclick="window['save-dialog'].close()">
             <span class="dialog__btn-text">ОК</span>
           </button>
         </form>
