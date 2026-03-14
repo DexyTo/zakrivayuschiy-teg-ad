@@ -219,7 +219,7 @@
   box-shadow: 2px 2px 0 var(--accent-color, black);
 }
 
-.like-button__text {
+.button__text {
   position: relative;
   color: white;
   mix-blend-mode: difference;
