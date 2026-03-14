@@ -292,9 +292,13 @@
   min-width: 198px;
 }
 
+.save-dialog .dialog__form {
+  grid-column: 1 / -1;
+}
+
 .dialog__btn {
   position: relative;
-  grid-column: 1 / -1;
+  inline-size: 100%;
   padding-block: 13px;
   transition: box-shadow 0.3s ease;
 }
